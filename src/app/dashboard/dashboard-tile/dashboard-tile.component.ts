@@ -19,7 +19,14 @@ export class DashboardTileComponent implements OnInit, ErrorHandler {
   }
 
   handleError(err: any): void {
-    console.error(err);
+    throw err;
+
+
+    /**
+     * @or when in index.html
+     */
+
+    //console.error(err);
   }
 
 }
