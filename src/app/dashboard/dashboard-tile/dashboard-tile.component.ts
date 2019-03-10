@@ -14,6 +14,8 @@ export class DashboardTileComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    debugger;
+    throw "this is an error";
   }
 
 }
